@@ -13,11 +13,11 @@ class Product extends Model
 
     public function stock()
     {
-        return $this->hasOne(Stock::class);
+        return $this->hasOne(Stock::class, 'product_id');
     }
 
     public function saleItems()
     {
-        return $this->hasMany(SaleItem::class);
+        return $this->hasMany(SaleItem::class,'product_id');
     }
 }
