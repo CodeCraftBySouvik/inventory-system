@@ -23,12 +23,12 @@
 
         <a href="{{ route('sales.create') }}"
            class="block py-3 px-4 hover:bg-gray-700">
-            Sales
+            Sales Create
         </a>
 
        <a href="{{ route('sales.index') }}"
         class="block py-3 px-4 hover:bg-gray-700">
-            Sales / Invoices
+             Invoices
         </a>
 
     </nav>

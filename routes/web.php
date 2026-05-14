@@ -12,7 +12,7 @@ Route::get('/dashboard', function () {
 
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::middleware(['auth','prevent-back-history'])->group(function () {
+Route::middleware(['auth'])->group(function () {
 
     Route::resource('products', ProductController::class);
 
