@@ -67,7 +67,7 @@
                                     {{ $product->stock->id ?? 'null' }},
                                     {{ $product->stock->quantity ?? 0 }}
                                 )"
-                                    class="bg-blue-600 hover:bg-blue-700 px-4 py-1 rounded-lg transition shadow">
+                                    class="btn btn-sm btn-outline-primary hover:bg-blue-700  px-4 py-1 rounded-lg transition shadow">
 
                                     Add Stock
 

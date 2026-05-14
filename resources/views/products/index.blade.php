@@ -16,7 +16,7 @@
 
         <button
             onclick="openAddModal()"
-            class="bg-blue-600 hover:bg-blue-700  px-5 py-2 rounded-lg transition duration-300 shadow">
+            class="btn btn-sm btn-outline-primary hover:bg-blue-700  px-5 py-2 rounded-lg transition duration-300 shadow">
             + Add Product
         </button>
 
@@ -61,13 +61,13 @@
                                         '{{ addslashes($product->product_code) }}',
                                         '{{ $product->price }}'
                                     )"
-                                    class="bg-yellow-500 hover:bg-yellow-600  px-4 py-1 rounded-lg transition">
+                                    class="btn btn-sm btn-outline-info hover:bg-yellow-600  px-4 py-1 rounded-lg transition">
                                     Edit
                                 </button>
 
                                 <button
                                     onclick="deleteProduct({{ $product->id }})"
-                                    class="bg-red-500 hover:bg-red-600  px-4 py-1 rounded-lg transition">
+                                    class="btn btn-sm btn-outline-danger hover:bg-red-600  px-4 py-1 rounded-lg transition">
                                     Delete
                                 </button>
 

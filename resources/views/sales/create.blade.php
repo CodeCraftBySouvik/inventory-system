@@ -80,7 +80,7 @@
 
         <button
             type="submit"
-            class="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-lg">
+            class="btn btn-sm btn-outline-primary hover:bg-blue-700 px-5 py-2 rounded-lg">
 
             Submit
 

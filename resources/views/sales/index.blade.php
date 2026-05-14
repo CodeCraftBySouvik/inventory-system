@@ -15,7 +15,7 @@
         </h2>
 
         <a href="{{ route('sales.create') }}"
-           class="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-lg transition duration-300 shadow">
+           class="btn btn-sm btn-outline-primary hover:bg-blue-700 px-5 py-2 rounded-lg transition duration-300 shadow">
             + Create Invoice
         </a>
 
