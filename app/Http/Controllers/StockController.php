@@ -51,14 +51,14 @@ class StockController extends Controller
 
         $stock = Stock::findOrFail($id);
 
-        $stock->quantity = $request->quantity;
+        // Increase instead of replace
+        $stock->quantity = $stock->quantity + $request->quantity;
 
         $stock->save();
 
         return response()->json([
-            'message' => 'Stock updated successfully'
+            'message' => 'Stock increased successfully'
         ]);
     }
-
     
 }
